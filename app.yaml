@@ -1,0 +1,31 @@
+application: keteprojectq32015
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /
+  script: pages/index.html
+
+- url: /details
+  script: pages/detail.html
+
+- url: /style
+  static_dir: style/
+
+- url: /bootstrap/css/
+  static_dir: bootstrap/css/
+
+- url: /bootstrap/js/
+  static_dir: bootstrap/js/
+
+- url: /assets
+  static_dir: assets/
+
+- url: /parts
+  static_dir: parts/
