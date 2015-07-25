@@ -1,5 +1,5 @@
 application: keteprojectq32015
-version: 3
+version: beta3
 runtime: php55
 api_version: 1
 threadsafe: yes
@@ -38,6 +38,9 @@ handlers:
 
 - url: /asset/apply.jpg
   script: assets/apply.jpg
+
+- url: /asset/wheel.jpg
+  script: assets/wheel.jpg
 
 - url: /style
   static_dir: style/
