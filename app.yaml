@@ -15,6 +15,21 @@ handlers:
 - url: /details
   script: pages/detail.html
 
+- url: /about
+  script: pages/about.html
+
+- url: /focus
+  script: pages/focus.html
+
+- url: /apply
+  script: pages/apply.html
+
+- url: /contact
+  script: pages/contact.html
+
+- url: /slide
+  script: pages/sld.html
+
 - url: /style
   static_dir: style/
 
