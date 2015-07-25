@@ -1,5 +1,5 @@
 application: keteprojectq32015
-version: 1
+version: 3
 runtime: php55
 api_version: 1
 threadsafe: yes
@@ -29,6 +29,15 @@ handlers:
 
 - url: /slide
   script: pages/sld.html
+
+- url: /asset/handshake.jpg
+  script: assets/handshake.jpg
+
+- url: /asset/zoomkids.jpg
+  script: assets/zoomkids.jpg
+
+- url: /asset/apply.jpg
+  script: assets/apply.jpg
 
 - url: /style
   static_dir: style/
