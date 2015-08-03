@@ -313,6 +313,13 @@ color:#616161;
     background: url('../assets/zoomkids.jpg') center / cover;
 }
 
+.demo-card-wide-construction > .mdl-card__title {
+    color: #000;
+    height: 500px;
+    background: url('http://s3.amazonaws.com/europaconcorsi/project_images/4430256/ACCR_MCA_Archive_construction_site_03_low_large.jpg') center / cover;
+}
+
+
 /*SLIDER CSS*/
 
  /* New in version 1.7+ */

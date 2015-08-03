@@ -10,7 +10,7 @@ handlers:
   upload: favicon\.ico
 
 - url: /
-  script: pages/index.html
+  script: pages/404.html
 
 - url: /details
   script: pages/detail.html
@@ -27,8 +27,14 @@ handlers:
 - url: /contact
   script: pages/contact.html
 
+- url: /construction
+  script: pages/404.html
+
 - url: /slide
-  script: pages/sld.html
+  script: pages/slidedemo.html
+
+- url: /mat
+  script: pages/materialize.html
 
 - url: /asset/handshake.jpg
   script: assets/handshake.jpg
@@ -53,6 +59,12 @@ handlers:
 
 - url: /assets
   static_dir: assets/
+
+- url: /css
+  static_dir: css/
+
+- url: /js
+  static_dir: js/
 
 - url: /parts
   static_dir: parts/
